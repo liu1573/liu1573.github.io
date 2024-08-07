@@ -1,0 +1,72 @@
+html {
+    font-size: 10px;
+    font-family: "open scans" sans-serif;
+    background-color: #00539f;
+
+}
+
+
+div {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* 水平居中 */
+    /* align-items: center; */
+    /* 垂直居中 */
+    /* height: 100vh; */
+    /* 让容器占满整个视口高度 */
+}
+
+.centered {
+    text-align: center;
+    /* background-color: lightblue; */
+    padding: 10px;
+    /* height: 100vh; */
+    width: auto;
+    display: block;
+}
+
+img {
+
+    height: 25vh;
+    /* 设置图片高度为视窗高度的100% */
+    width: auto;
+    /* 保持宽高比 */
+    display: block;
+    /* 去除底部间隙 */
+    margin: 0 auto;
+    border-radius: 25%;
+}
+
+img:hover {
+    border-radius: 25%;
+}
+
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-shadow: 1px;
+}
+
+a:hover {
+    color: greenyellow;
+}
